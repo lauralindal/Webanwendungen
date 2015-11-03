@@ -353,3 +353,47 @@ textarea {
 .register-group textarea {
   height: 78px;
 }
+
+/* HEROINE OVERVIEW */
+
+table {
+  margin-bottom: 44px;
+  width: 100%;
+}
+th,
+td {
+  padding-bottom: 22px;
+  vertical-align: top;
+}
+th {
+  padding-right: 45px;
+  text-align: right;
+  width: 20%;
+}
+td {
+  width: 40%;
+}
+thead {
+  line-height: 44px;
+}
+thead th {
+  color: #895289;
+  font-size: 24px;
+}
+.second-row {
+  text-align: left;
+}
+tbody th {
+  color: #895289;
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 22px;
+  text-transform: uppercase;
+}
+tbody td {
+  padding-top: 21px;
+}
+tbody img {
+  border-radius: 50%;
+  width: 30%;
+}
