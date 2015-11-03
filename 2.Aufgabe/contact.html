@@ -21,7 +21,68 @@
     </header>
   <section class="row">
     <div class="grid">
-      
+      <section class="col-1-3">
+        <h2>Hang Out With Us</h2>
+        <h5>Pay us with cookies</h5>
+        <p>Book your time with us using the form to the right. Feel free to bring a friend or your family along. Once the booking can be confirmed, we&#8217;ll let you know. See you soon!</p>
+        <h4>Why Meet?</h4>
+        <ul class="why-hang">
+          <li>Over twenty world-class heroines</li>
+          <li>One full day of discussions and hands-on empowerment</li>
+          <li>Hosted at the very exciting Sunnydale High School</li>
+          <li>Hunting vamps or your own demons is simply amazing</li>
+        </ul>
+      </section><!--
+      --><form class="col-2-3" action="#" method="post">
+        <fieldset class="register-group">
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Full name" required>
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="Email address" required>
+          </label>
+          <label>
+            Chosen Heroine
+            <select name="heroine" required>
+              <option value="1" selected>Betty Rizzo</option>
+              <option value="2">Buffy Summers</option>
+              <option value="3">Cameron Howe</option>
+              <option value="4">Cat Stratford</option>
+              <option value="6">Cristina Yang</option>
+              <option value="7">Donna Clark</option>
+              <option value="8">Jemma Snipe</option>
+              <option value="9">Katniss Everdeen</option>
+              <option value="10">Lieutenant Psi</option>
+              <option value="11">Miranda Bailey</option>
+              <option value="12">Paris Gellar</option>
+              <option value="13">Poussey Washington</option>
+              <option value="14">River Tam</option>
+              <option value="15">Rory Gilmore</option>
+              <option value="16">Sophia Burset</option>
+              <option value="17">Susan Gray</option>
+              <option value="18">Tara Maclay</option>
+              <option value="19">Virginia Johnson</option>
+              <option value="20">Willow Rosenberg</option>
+              <option value="5">Zoe Washburne</option>
+            </select>
+          </label>
+          <label>
+            When would you like to meet?
+            <input type="date" name="meetingday" required>
+          </label>
+          <label>
+            How would you like to spend the day?
+            <textarea name="schedule"></textarea>
+          </label>
+          <label>
+            Comments
+            <textarea name="comments"></textarea>
+          </label>
+        </fieldset>
+        <input class="btn btn-default" type="submit" name="submit" value="Send Booking Request">
+      </form>
     </div>
   </section>
   <footer class="primary-footer container group">

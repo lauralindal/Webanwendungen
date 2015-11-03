@@ -153,6 +153,15 @@ a:hover {
   background: #dfe2e5;
   color: #492C49;
 }
+.btn-default {
+  border: 0;
+  background: #895289;
+  padding: 11px 30px;
+  font-size: 14px;
+}
+.btn-default:hover {
+  background: #492C49;
+}
 
 /* INDEX / HOME */
 
@@ -300,4 +309,47 @@ body {
 }
 .map {
   height: 264px;
+}
+
+/* CONTACT */
+.why-hang {
+  list-style: square;
+  margin: 0 0 22px 30px;
+}
+form {
+  margin-bottom: 22px;
+}
+input,
+select,
+textarea {
+  font: 300 16px/22px "Poppins", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.register-group label {
+  color: #492C49;
+  cursor: pointer;
+  font-weight: 400;
+}
+.register-group input,
+.register-group select,
+.register-group textarea {
+  border: 1px solid #895289;
+  border-radius: 5px;
+  color: #492C49;
+  display: block;
+  margin: 5px 0 27px 0;
+  padding: 5px 8px;
+}
+.register-group select {
+  width: 100%;
+}
+.register-group input,
+.register-group textarea {
+  width: 100%;
+}
+.register-group select {
+  height: 34px;
+  width: 100%;
+}
+.register-group textarea {
+  height: 78px;
 }
