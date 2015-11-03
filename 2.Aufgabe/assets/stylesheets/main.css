@@ -89,7 +89,7 @@ h1, h2, h3, h4, h6, p {
   margin-bottom: 22px;
 }
 h1, h2, h3, h4 {
-  color: #648880;
+  color: #492C49;
 }
 h1 {
   font-size: 36px;
@@ -101,14 +101,17 @@ h2 {
 }
 h3 {
   font-size: 21px;
+  line-height: 44px;
 }
 h4 {
   font-size: 18px;
 }
 h5 {
-  color: #a9b2b9;
+  color: #895289;
   font-size: 14px;
   font-weight: 400;
+  text-transform: uppercase;
+  line-height: 44px;
 }
 strong {
   font-weight: 400;
@@ -119,38 +122,52 @@ cite, em {
 
 /* LINKS */
 
-a:hover {
-  color: #a9b2b9;
-}
 a {
-  color: #648880;
+  color: #492C49;
+  text-decoration: none;
+}
+a:hover {
+  color: #895289;
+}
+.teaser a:hover h3 {
+  color: #895289;
 }
 
 /* BUTTONS */
 
 .btn {
   border-radius: 5px;
+  color: #D2BCD2;
+  cursor: pointer;
   display: inline-block;
+  font-weight: 400;
+  letter-spacing: .5px;
   margin: 0;
+  text-transform: uppercase;
 }
 .btn-alt {
     border: 1px solid #dfe2e5;
     padding: 10px 30px;
+}
+.btn-alt:hover {
+  background: #dfe2e5;
+  color: #492C49;
 }
 
 /* INDEX / HOME */
 
 .heroines {
   line-height: 24px;
-  padding: 11px 60px 33px 60px;
+  padding: 11px 60px 11px 60px;
+  text-align: center;
 }
 .heroines h2 {
   font-size: 22px;
 }
 .heroines p {
   font-size: 16px;
+  font-weight: 100;
 }
-
 
 /* CLEARFIX */
 
@@ -167,27 +184,59 @@ a {
   *zoom: 1;
 }
 
+/* ROWS */
+
+.row {
+  background: #fff;
+  min-width: 960px;
+  padding: 20px 0 20px 0;
+}
+.row,
+.row-alt {
+  min-width: 960px;
+}
+.row-alt {
+   background: #fff;
+   padding: 20px 0 20px 0;
+ }
+
 /* PRIMARY HEADER */
 
 .logo {
-  border-top: 4px solid #648880;
+  border-top: 4px solid #492C49;
   float: left;
   font-size: 48px;
+  font-weight: 100;
+  letter-spacing: .5px;
   line-height: 44px;
   padding: 40px 0 22px 0;
+  text-transform: uppercase;
 }
 .tagline {
+  color: #492C49;
   margin: 66px 0 22px 0;
+  text-align: right;
 }
 .primary-nav {
   font-size: 14px;
   font-weight: 400;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  text-align: right;
+}
+.primary-header a,
+.primary-footer a {
+  color: #D2BCD2;
+}
+.primary-header a:hover,
+.primary-footer a:hover {
+  color: #492C49;
 }
 
 /* PRIMARY FOOTER */
 
 .primary-footer {
-  color: #648880;
+  color: #492C49;
   font-size: 14px;
   padding-bottom: 44px;
   padding-top: 44px;
@@ -197,13 +246,37 @@ a {
   font-weight: 400;
 }
 
+/* NAVIGATION */
+
+.nav {
+  text-align: right;
+}
+.nav li {
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: top;
+}
+.nav li:last-child {
+  margin-right: 0;
+}
+
 /* CUSTOM STYLES */
 
 body {
-  color: #888;
-  font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #C878C9;
+  color: #492C49;
+  font: 300 16px/22px "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.teaser a:hover h3 {
-  color: #a9b2b9;
+/* HEROINES */
+
+.heroine-info {
+  border: 1px solid #492C49;
+  border-radius: 5px;
+  margin-top: 88px;
+  padding: 22px 0;
+  text-align: center;
+}
+.heroine {
+  margin-bottom: 44px;
 }
