@@ -168,6 +168,12 @@ a:hover {
   font-size: 16px;
   font-weight: 100;
 }
+.teaser img {
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 22px;
+  max-width: 100%
+}
 
 /* CLEARFIX */
 
@@ -271,12 +277,27 @@ body {
 /* HEROINES */
 
 .heroine-info {
-  border: 1px solid #492C49;
+  border: 1px solid #895289;
   border-radius: 5px;
   margin-top: 88px;
   padding: 22px 0;
   text-align: center;
 }
+.heroine-info img {
+  border-radius: 5px;
+  height: 200px;
+  margin: 0 0 22px 0;
+  vertical-align: top;
+}
 .heroine {
   margin-bottom: 44px;
+}
+
+/* VENUE */
+
+.venue {
+  margin-bottom: 22px;
+}
+.map {
+  height: 264px;
 }
