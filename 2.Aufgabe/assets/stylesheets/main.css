@@ -1,3 +1,8 @@
+/*
+Inspired by Shaw Howe's Tutorial and my Pop Culture knowledge
+http://learn.shayhowe.com/html-css/
+*/
+
 /* http://meyerweb.com/eric/tools/css/reset/
 v2.0 | 20110126
 License: none (public domain)
@@ -393,4 +398,16 @@ tbody img {
 /* FAQ */
 dd {
   margin-left: 40px;
+}
+
+/* QUOTES */
+
+blockquote {
+  margin: 20px 40px;
+}
+p:first-of-type {
+  margin-bottom: 1em;
+}
+p:last-of-type {
+  margin-top: 1em;
 }
