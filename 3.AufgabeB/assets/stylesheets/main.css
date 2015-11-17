@@ -6788,11 +6788,11 @@ body {
 .nav li:last-child {
   margin-right: 0;
 }
-.nav li a {
-  color: #ffffff;
-
-}
 
 footer h2, ul {
   text-align: right;
+}
+
+footer .nav li a {
+  color: #ffffff;
 }
