@@ -1,4 +1,5 @@
 <html>
+
 <head>
   <title>Splendr | Home</title>
   <meta charset="utf-8">
@@ -6,8 +7,9 @@
   <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
   <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
   <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-  <link href="main.css" rel="stylesheet" type="text/css">
+  <link href="assets/stylesheets/main.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
   <div class="navbar navbar-default navbar-static-top">
     <div class="container">
@@ -17,18 +19,31 @@
           <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand" href="index.html">
-          <span>Splendr</span>
+          <img src="assets/images/hipsterlogogenerator1.png">
         </a>
       </div>
       <div class="collapse navbar-collapse" id="navbar-ex-collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="board.html">Create Board</a></li>
-          <li><a href="create.html">Add Product</a></li>
+          <form class="navbar-form navbar-header" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+          </form>
+          <li><a href="board.html">Surprise Me</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <span class="glyphicon glyphicon-plus"></span> Create</a>
+            <ul class="dropdown-menu">
+              <li><a href="create.html">Product</a></li>
+              <li><a href="board.html">Board</a></li>
+            </ul>
+          </li>
           <li><a href="login.html">Login</a></li>
         </ul>
       </div>
     </div>
   </div>
+
   <div class="carousel slide" id="fullcarousel-example" data-interval="false" data-ride="carousel">
     <div class="carousel-inner">
       <div class="item active">
@@ -76,7 +91,8 @@
         </div>
         <div class="col-md-3"> <img src="http://lorempixel.com/output/technics-q-c-640-480-10.jpg" class="img-responsive img-rounded">
           <h2>MP3 Player</h2>
-          <p>Plasma logistically system services transponder partitioned supporting kilohertz, system, floating-point fragmentation analog. Phase, sampling device arrray, generator transmission fragmentation interface generator sampling analog bypass encapsulated normalizing.</p>
+          <p>Plasma logistically system services transponder partitioned supporting kilohertz, system, floating-point fragmentation analog. Phase, sampling device arrray, generator transmission fragmentation interface generator sampling analog bypass encapsulated
+            normalizing.</p>
         </div>
         <div class="col-md-3"> <img src="http://lorempixel.com/output/technics-q-c-640-480-3.jpg" class="img-responsive img-rounded">
           <h2>Laptop</h2>
@@ -85,41 +101,29 @@
         </div>
         <div class="col-md-3"> <img src="http://lorempixel.com/output/technics-q-c-640-480-8.jpg" class="img-responsive img-rounded">
           <h2>Something</h2>
-          <p>Supporting arrray supporting network phaselock adaptive supporting. Cable mainframe video feedback deviation bypass frequency potentiometer software read-only, resistor computer mainframe.</p></div>
+          <p>Supporting arrray supporting network phaselock adaptive supporting. Cable mainframe video feedback deviation bypass frequency potentiometer software read-only, resistor computer mainframe.</p>
+        </div>
       </div>
     </div>
   </div>
+
   <footer class="section section-primary">
     <div class="container">
       <div class="row">
-        <div class="col-sm-6">
-          <h1>Splendr Inc.</h1>
-          <p>Developer resistor prototype element technician reflective,
-            <br>Harmonic record remote infrared converter record processor.
-            <br>Bus hyperlinked phase partitioned distributed fragmentation
-          </p>
-        </div>
-        <div class="col-sm-6">
-          <p class="text-info text-right">
-          </p>
-          <div class="row">
-            <div class="col-md-12 hidden-lg hidden-md hidden-sm text-left"> <a href="#">
-              <i class="fa fa-3x fa-fw fa-twitter text-inverse"></i></a> <a href="#">
-              <i class="fa fa-3x fa-fw fa-github text-inverse"></i></a></div>
-          </div>
-          <div class="row">
-            <div class="col-md-12 hidden-xs text-right">
-              <a href="#">
-                <i class="fa fa-3x fa-fw fa-twitter text-inverse"></i>
-              </a>
-              <a href="#">
-                <i class="fa fa-3x fa-fw fa-github text-inverse"></i>
-              </a>
-            </div>
-          </div>
+        <div class="col-sm-12">
+          <h2>Splendr Inc.</h2>
+          <nav class="nav">
+            <ul>
+              <li><a href="contact.html">Contact</a></a>
+              </li>
+              <li><a href="impressum.html">Impressum</a></li>
+            </ul>
+          </nav>
         </div>
       </div>
     </div>
+    </div>
   </footer>
 </body>
+
 </html>

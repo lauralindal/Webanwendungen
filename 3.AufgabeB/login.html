@@ -1,13 +1,13 @@
 <html>
 
 <head>
-  <title>Splendr | Login or Register</title>
+  <title>Splendr | Register or Login</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
   <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
   <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-  <link href="main.css" rel="stylesheet" type="text/css">
+  <link href="assets/stylesheets/main.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -19,94 +19,104 @@
           <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand" href="index.html">
-          <span>Splendr</span>
+          <img src="assets/images/hipsterlogogenerator1.png">
         </a>
       </div>
       <div class="collapse navbar-collapse" id="navbar-ex-collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Create Board</a></li>
-          <li><a href="#">Add Product</a></li>
-          <li><a href="#">Login</a></li>
+          <form class="navbar-form navbar-header" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+          </form>
+          <li><a href="board.html">Surprise Me</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <span class="glyphicon glyphicon-plus"></span> Create</a>
+            <ul class="dropdown-menu">
+              <li><a href="create.html">Product</a></li>
+              <li><a href="board.html">Board</a></li>
+            </ul>
+          </li>
+          <li><a href="login.html">Login</a></li>
         </ul>
       </div>
     </div>
   </div>
+
   <div class="section">
     <section class="container">
-		<div class="row">
-			<div class="col-md-6">
-				<div class="form-group col-lg-12">
-					<label>Username</label>
-					<input type="" name="" class="form-control" id="" value="">
-				</div>
-				<div class="form-group col-lg-6">
-					<label>Password</label>
-					<input type="password" name="" class="form-control" id="" value="">
-				</div>
-				<div class="form-group col-lg-6">
-					<label>Repeat Password</label>
-					<input type="password" name="" class="form-control" id="" value="">
-				</div>
-				<div class="form-group col-lg-6">
-					<label>Email Address</label>
-					<input type="" name="" class="form-control" id="" value="">
-				</div>
-				<div class="form-group col-lg-6">
-					<label>Repeat Email Address</label>
-					<input type="" name="" class="form-control" id="" value="">
-				</div>
-        <button type="submit" class="btn btn-primary">Register</button>
-			</div>
-			<div class="col-md-6">
-        <div class="panel panel-default">
-			  	<div class="panel-heading">
-			    	<h3 class="panel-title">Already a Member?</h3>
-			 	  </div>
-			  	<div class="panel-body">
-			    	<form accept-charset="UTF-8" role="form">
-              <fieldset>
-			    	  	<div class="form-group">
-			    		    <input class="form-control" placeholder="E-mail" name="email" type="text">
-			    		  </div>
-			    		  <div class="form-group">
-			    			  <input class="form-control" placeholder="Password" name="password" type="password" value="">
-			    		  </div>
-			    		  <div class="checkbox">
-			    	    	<label>
-			    	    		<input name="remember" type="checkbox" value="Remember Me"> Remember Me
-			    	    	</label>
-			    	    </div>
-			    		  <input class="btn btn-lg btn-success btn-block" type="submit" value="Login">
-			    	  </fieldset>
-			      </form>
-			    </div>
-			  </div>
-			</div>
-		</div>
-	</section>
-  </div>
-    <footer class="section section-primary">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6">
-            <h1>Splendr Inc.</h1>
-            <p>Developer resistor prototype element technician reflective,
-              <br>Harmonic record remote infrared converter record processor.
-              <br>Bus hyperlinked phase partitioned distributed fragmentation
-            </p>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group col-lg-12">
+            <label>Username</label>
+            <input type="" name="" class="form-control" id="" value="">
           </div>
-          <div class="col-sm-6">
-            <p class="text-info text-right"></p>
-            <div class="row">
-              <div class="col-md-12 hidden-lg hidden-md hidden-sm text-left"> <a href="#"><i class="fa fa-3x fa-fw fa-instagram text-inverse"></i></a> <a href="#"><i class="fa fa-3x fa-fw fa-twitter text-inverse"></i></a> <a href="#"><i class="fa fa-3x fa-fw fa-facebook text-inverse"></i></a> <a href="#"><i class="fa fa-3x fa-fw fa-github text-inverse"></i></a>                </div>
+          <div class="form-group col-lg-6">
+            <label>Password</label>
+            <input type="password" name="" class="form-control" id="" value="">
+          </div>
+          <div class="form-group col-lg-6">
+            <label>Repeat Password</label>
+            <input type="password" name="" class="form-control" id="" value="">
+          </div>
+          <div class="form-group col-lg-6">
+            <label>Email Address</label>
+            <input type="" name="" class="form-control" id="" value="">
+          </div>
+          <div class="form-group col-lg-6">
+            <label>Repeat Email Address</label>
+            <input type="" name="" class="form-control" id="" value="">
+          </div>
+          <a href="profile.html" <button type="submit" class="btn btn-primary">Register</button>
+      </a>
+        </div>
+        <div class="col-md-6">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Already a Member?</h3>
             </div>
-            <div class="row">
-              <div class="col-md-12 hidden-xs text-right"> <a href="#"><i class="fa fa-3x fa-fw fa-instagram text-inverse"></i></a> <a href="#"><i class="fa fa-3x fa-fw fa-twitter text-inverse"></i></a> <a href="#"><i class="fa fa-3x fa-fw fa-facebook text-inverse"></i></a> <a href="#"><i class="fa fa-3x fa-fw fa-github text-inverse"></i></a>                </div>
+            <div class="panel-body">
+              <form accept-charset="UTF-8" role="form">
+                <fieldset>
+                  <div class="form-group">
+                    <input class="form-control" placeholder="E-mail" name="email" type="text">
+                  </div>
+                  <div class="form-group">
+                    <input class="form-control" placeholder="Password" name="password" type="password" value="">
+                  </div>
+                  <div class="checkbox">
+                    <label>
+                      <input name="remember" type="checkbox" value="Remember Me"> Remember Me
+                    </label>
+                  </div>
+                  <input class="btn btn-lg btn-success btn-block" type="submit" value="Login">
+                </fieldset>
+              </form>
             </div>
           </div>
         </div>
       </div>
-    </footer>
+    </section>
+  </div>
+
+  <footer class="section section-primary">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h2>Splendr Inc.</h2>
+          <nav class="nav">
+            <ul>
+              <li><a href="contact.html">Contact</a></a>
+              </li>
+              <li><a href="impressum.html">Impressum</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
 </body>
 
 </html>

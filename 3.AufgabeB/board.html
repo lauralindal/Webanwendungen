@@ -1,13 +1,13 @@
 <html>
 
 <head>
-  <title>Splendr | ExampleBoard</title>
+  <title>Splendr | Example Board</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
   <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
   <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-  <link href="main.css" rel="stylesheet" type="text/css">
+  <link href="assets/stylesheets/main.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -19,205 +19,201 @@
           <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand" href="index.html">
-          <span>Splendr</span>
+          <img src="assets/images/hipsterlogogenerator1.png">
         </a>
       </div>
       <div class="collapse navbar-collapse" id="navbar-ex-collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Create Board</a></li>
-          <li><a href="#">Add Product</a></li>
-          <li><a href="#">Login</a></li>
+          <form class="navbar-form navbar-header" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+          </form>
+          <li><a href="board.html">Surprise Me</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <span class="glyphicon glyphicon-plus"></span> Create</a>
+            <ul class="dropdown-menu">
+              <li><a href="create.html">Product</a></li>
+              <li><a href="board.html">Board</a></li>
+            </ul>
+          </li>
+          <li><a href="login.html">Login</a></li>
         </ul>
       </div>
     </div>
   </div>
+
   <div class="section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-            <div class="thumbnail">
-              <a href="http://en.freejpg.com.ar/asset/900/b5/b5cf/F100007139.jpg">
-                <img src="http://en.freejpg.com.ar/asset/900/b5/b5cf/F100007139.jpg"
-                class="img-responsive">
-              </a>
-              <div class="caption">
-                <h3>Product Name</h3>
-                <h5>$5.00</h5>
-                <a href="board.html" class="btn btn-primary btn-small">Show Product Details</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="thumbnail">
-              <a href="http://en.freejpg.com.ar/asset/900/98/9876/F100006954.jpg">
-                <img src="http://en.freejpg.com.ar/asset/900/98/9876/F100006954.jpg"
-                class="img-responsive">
-              </a>
-              <div class="caption">
-                <h3>Product Name</h3>
-                <h5>$5.00</h5>
-                <a href="board.html" class="btn btn-primary btn-small">Show Product Details</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="thumbnail">
-              <a href="http://en.freejpg.com.ar/asset/900/2d/2db5/F100006653.jpg">
-                <img src="http://en.freejpg.com.ar/asset/900/2d/2db5/F100006653.jpg"
-                class="img-responsive">
-              </a>
-              <div class="caption">
-                <h3>Product Name</h3>
-                <h5>$5.00</h5>
-                <a href="board.html" class="btn btn-primary btn-small">Show Product Details</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="thumbnail">
-              <a href="http://en.freejpg.com.ar/asset/900/ba/ba1b/F100006635.jpg">
-                <img src="http://en.freejpg.com.ar/asset/900/ba/ba1b/F100006635.jpg"
-                class="img-responsive">
-              </a>
-              <div class="caption">
-                <h3>Product Name</h3>
-                <h5>$5.00</h5>
-                <a href="board.html" class="btn btn-primary btn-small">Show Product Details</a>
-              </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <a href="http://en.freejpg.com.ar/asset/900/b5/b5cf/F100007139.jpg">
+              <img src="http://en.freejpg.com.ar/asset/900/b5/b5cf/F100007139.jpg" class="img-responsive">
+            </a>
+            <div class="caption">
+              <h3>Product Name</h3>
+              <h5>$5.00</h5>
+              <a href="board.html" class="btn btn-primary btn-small">Show Product Details</a>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-3">
-            <div class="thumbnail">
-              <a href="http://en.freejpg.com.ar/asset/900/ba/ba68/F100006335.jpg">
-                <img src="http://en.freejpg.com.ar/asset/900/ba/ba68/F100006335.jpg"
-                class="img-responsive">
-              </a>
-              <div class="caption">
-                <h3>Product Name</h3>
-                <h5>$5.00</h5>
-                <a href="board.html" class="btn btn-primary btn-small">Show Product Details</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="thumbnail">
-              <a href="http://en.freejpg.com.ar/asset/900/79/79de/F100006315.jpg">
-                <img src="http://en.freejpg.com.ar/asset/900/79/79de/F100006315.jpg"
-                class="img-responsive">
-              </a>
-              <div class="caption">
-                <h3>Product Name</h3>
-                <h5>$5.00</h5>
-                <a href="board.html" class="btn btn-primary btn-small">Show Product Details</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="thumbnail">
-              <a href="http://en.freejpg.com.ar/asset/900/c4/c4ca/F100006318.jpg">
-                <img src="http://en.freejpg.com.ar/asset/900/c4/c4ca/F100006318.jpg"
-                class="img-responsive">
-              </a>
-              <div class="caption">
-                <h3>Product Name</h3>
-                <h5>$5.00</h5>
-                <a href="board.html" class="btn btn-primary btn-small">Show Product Details</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="thumbnail">
-              <a href="http://en.freejpg.com.ar/asset/900/a5/a509/F100006209.jpg">
-                <img src="http://en.freejpg.com.ar/asset/900/a5/a509/F100006209.jpg"
-                class="img-responsive">
-              </a>
-              <div class="caption">
-                <h3>Product Name</h3>
-                <h5>$5.00</h5>
-                <a href="board.html" class="btn btn-primary btn-small">Show Product Details</a>
-              </div>
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <a href="http://en.freejpg.com.ar/asset/900/98/9876/F100006954.jpg">
+              <img src="http://en.freejpg.com.ar/asset/900/98/9876/F100006954.jpg" class="img-responsive">
+            </a>
+            <div class="caption">
+              <h3>Product Name</h3>
+              <h5>$5.00</h5>
+              <a href="board.html" class="btn btn-primary btn-small">Show Product Details</a>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-3">
-            <div class="thumbnail">
-              <a href="http://en.freejpg.com.ar/asset/900/43/4355/F100005227.jpg">
-                <img src="http://en.freejpg.com.ar/asset/900/43/4355/F100005227.jpg"
-                class="img-responsive">
-              </a>
-              <div class="caption">
-                <h3>Product Name</h3>
-                <h5>$5.00</h5>
-                <a href="board.html" class="btn btn-primary btn-small">Show Product Details</a>
-              </div>
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <a href="http://en.freejpg.com.ar/asset/900/2d/2db5/F100006653.jpg">
+              <img src="http://en.freejpg.com.ar/asset/900/2d/2db5/F100006653.jpg" class="img-responsive">
+            </a>
+            <div class="caption">
+              <h3>Product Name</h3>
+              <h5>$5.00</h5>
+              <a href="board.html" class="btn btn-primary btn-small">Show Product Details</a>
             </div>
           </div>
-          <div class="col-md-3">
-            <div class="thumbnail">
-              <a href="http://en.freejpg.com.ar/asset/900/8d/8d8a/F100005159.jpg">
-                <img src="http://en.freejpg.com.ar/asset/900/8d/8d8a/F100005159.jpg"
-                class="img-responsive">
-              </a>
-              <div class="caption">
-                <h3>Product Name</h3>
-                <h5>$5.00</h5>
-                <a href="board.html" class="btn btn-primary btn-small">Show Product Details</a>
-              </div>
+        </div>
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <a href="http://en.freejpg.com.ar/asset/900/ba/ba1b/F100006635.jpg">
+              <img src="http://en.freejpg.com.ar/asset/900/ba/ba1b/F100006635.jpg" class="img-responsive">
+            </a>
+            <div class="caption">
+              <h3>Product Name</h3>
+              <h5>$5.00</h5>
+              <a href="board.html" class="btn btn-primary btn-small">Show Product Details</a>
             </div>
           </div>
-          <div class="col-md-3">
-            <div class="thumbnail">
-              <a href="http://en.freejpg.com.ar/asset/OLD/comps/f004764.jpg">
-                <img src="http://en.freejpg.com.ar/asset/OLD/comps/f004764.jpg"
-                class="img-responsive">
-              </a>
-              <div class="caption">
-                <h3>Product Name</h3>
-                <h5>$5.00</h5>
-                <a href="board.html" class="btn btn-primary btn-small">Show Product Details</a>
-              </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <a href="http://en.freejpg.com.ar/asset/900/ba/ba68/F100006335.jpg">
+              <img src="http://en.freejpg.com.ar/asset/900/ba/ba68/F100006335.jpg" class="img-responsive">
+            </a>
+            <div class="caption">
+              <h3>Product Name</h3>
+              <h5>$5.00</h5>
+              <a href="board.html" class="btn btn-primary btn-small">Show Product Details</a>
             </div>
           </div>
-          <div class="col-md-3">
-            <div class="thumbnail">
-              <a href="http://en.freejpg.com.ar/asset/OLD/comps/f001888.jpg">
-                <img src="http://en.freejpg.com.ar/asset/OLD/comps/f001888.jpg"
-                class="img-responsive">
-              </a>
-              <div class="caption">
-                <h3>Product Name</h3>
-                <h5>$5.00</h5>
-                <a href="board.html" class="btn btn-primary btn-small">Show Product Details</a>
-              </div>
+        </div>
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <a href="http://en.freejpg.com.ar/asset/900/79/79de/F100006315.jpg">
+              <img src="http://en.freejpg.com.ar/asset/900/79/79de/F100006315.jpg" class="img-responsive">
+            </a>
+            <div class="caption">
+              <h3>Product Name</h3>
+              <h5>$5.00</h5>
+              <a href="board.html" class="btn btn-primary btn-small">Show Product Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <a href="http://en.freejpg.com.ar/asset/900/c4/c4ca/F100006318.jpg">
+              <img src="http://en.freejpg.com.ar/asset/900/c4/c4ca/F100006318.jpg" class="img-responsive">
+            </a>
+            <div class="caption">
+              <h3>Product Name</h3>
+              <h5>$5.00</h5>
+              <a href="board.html" class="btn btn-primary btn-small">Show Product Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <a href="http://en.freejpg.com.ar/asset/900/a5/a509/F100006209.jpg">
+              <img src="http://en.freejpg.com.ar/asset/900/a5/a509/F100006209.jpg" class="img-responsive">
+            </a>
+            <div class="caption">
+              <h3>Product Name</h3>
+              <h5>$5.00</h5>
+              <a href="board.html" class="btn btn-primary btn-small">Show Product Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <a href="http://en.freejpg.com.ar/asset/900/43/4355/F100005227.jpg">
+              <img src="http://en.freejpg.com.ar/asset/900/43/4355/F100005227.jpg" class="img-responsive">
+            </a>
+            <div class="caption">
+              <h3>Product Name</h3>
+              <h5>$5.00</h5>
+              <a href="board.html" class="btn btn-primary btn-small">Show Product Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <a href="http://en.freejpg.com.ar/asset/900/8d/8d8a/F100005159.jpg">
+              <img src="http://en.freejpg.com.ar/asset/900/8d/8d8a/F100005159.jpg" class="img-responsive">
+            </a>
+            <div class="caption">
+              <h3>Product Name</h3>
+              <h5>$5.00</h5>
+              <a href="board.html" class="btn btn-primary btn-small">Show Product Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <a href="http://en.freejpg.com.ar/asset/OLD/comps/f004764.jpg">
+              <img src="http://en.freejpg.com.ar/asset/OLD/comps/f004764.jpg" class="img-responsive">
+            </a>
+            <div class="caption">
+              <h3>Product Name</h3>
+              <h5>$5.00</h5>
+              <a href="board.html" class="btn btn-primary btn-small">Show Product Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <a href="http://en.freejpg.com.ar/asset/OLD/comps/f001888.jpg">
+              <img src="http://en.freejpg.com.ar/asset/OLD/comps/f001888.jpg" class="img-responsive">
+            </a>
+            <div class="caption">
+              <h3>Product Name</h3>
+              <h5>$5.00</h5>
+              <a href="board.html" class="btn btn-primary btn-small">Show Product Details</a>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
   <footer class="section section-primary">
     <div class="container">
       <div class="row">
-        <div class="col-sm-6">
-          <h1>Splendr Inc.</h1>
-          <p>Developer resistor prototype element technician reflective,
-            <br>Harmonic record remote infrared converter record processor.
-            <br>Bus hyperlinked phase partitioned distributed fragmentation
-          </p>
-        </div>
-        <div class="col-sm-6">
-          <p class="text-info text-right"></p>
-          <div class="row">
-            <div class="col-md-12 hidden-lg hidden-md hidden-sm text-left"> <a href="#"><i class="fa fa-3x fa-fw fa-instagram text-inverse"></i></a> <a href="#"><i class="fa fa-3x fa-fw fa-twitter text-inverse"></i></a> <a href="#"><i class="fa fa-3x fa-fw fa-facebook text-inverse"></i></a> <a href="#"><i class="fa fa-3x fa-fw fa-github text-inverse"></i></a>              </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12 hidden-xs text-right"> <a href="#"><i class="fa fa-3x fa-fw fa-instagram text-inverse"></i></a> <a href="#"><i class="fa fa-3x fa-fw fa-twitter text-inverse"></i></a> <a href="#"><i class="fa fa-3x fa-fw fa-facebook text-inverse"></i></a> <a href="#"><i class="fa fa-3x fa-fw fa-github text-inverse"></i></a>              </div>
-          </div>
+        <div class="col-sm-12">
+          <h2>Splendr Inc.</h2>
+          <nav class="nav">
+            <ul>
+              <li><a href="contact.html">Contact</a></a>
+              </li>
+              <li><a href="impressum.html">Impressum</a></li>
+            </ul>
+          </nav>
         </div>
       </div>
+    </div>
     </div>
   </footer>
 </body>
